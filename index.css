@@ -10,30 +10,37 @@
 }
 .heading {
   color: #ffffff;
-  font-size: 35px;
+  font-size: 45px;
   font-family: "bree serif";
 }
 .buttons-container {
   display: flex;
+  flex-direction: row;
 }
-.like-btn {
+.like-button {
   background-color: #eab308;
   color: #ffffff;
   font-size: 12px;
   border-radius: 10px;
   border-width: 0px;
+  font-family: "roboto";
+  margin: 15px;
 }
-.comment-btn {
+.comment-button {
   background-color: #ffffff;
   color: #323f4b;
   font-size: 12px;
   border-radius: 10px;
   border-width: 0px;
+  font-family: "roboto";
+  margin: 20px;
 }
-.share-btn {
+.share-button {
   background-color: #1d4ed8;
   color: #ffffff;
   font-size: 12px;
   border-radius: 10px;
   border-width: 0px;
+  font-family: "roboto";
+  margin: 15px;
 }
